@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Менеджер рекламы</h2>
+            <ul>
+                <li><i class="fas fa-tachometer-alt"></i><a href="info_panel.html" target="_blank">Информационная панель</a></li>
+                <li><i class="fas fa-shopping-cart"></i><a href="user_orders.html" target="_blank">Заказы пользователей</a></li>
+                <li><i class="fas fa-tv"></i><a href="displays.html" target="_blank">Дислеи</a></li>
+                <li class="active"><i class="fas fa-calendar-alt"></i><a href="schedule.html" target="_blank">Расписание</a></li>
+                <li><i class="fas fa-user-circle"></i><a href="account.html" target="_blank">Учетная запись</a></li>
+                <li><i class="fas fa-sign-out-alt"></i><a href="logout.html" target="_blank">Выход</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <h1>Расписание</h1>
+                <p>Управление расписанием рекламных показов</p>
+                <p class="month">Декабрь 2024</p>
+            </div>
+            <div class="schedule-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Дисплей</th>
+                            <th>Дата</th>
+                            <th>Время суток</th>
+                            <th>Рекламодатель</th>
+                            <th>Статус</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Центральный экран</td>
+                            <td>2024-12-19</td>
+                            <td>13:40</td>
+                            <td>MECHEL</td>
+                            <td><span class="status active">Активный</span></td>
+                        </tr>
+                        <tr>
+                            <td>Экран на площади</td>
+                            <td>2024-12-19</td>
+                            <td>13:40</td>
+                            <td>ЯТЭК</td>
+                            <td><span class="status waiting">Ожидание</span></td>
+                        </tr>
+                        <tr>
+                            <td>Торговый центр</td>
+                            <td>2024-12-19</td>
+                            <td>13:40</td>
+                            <td>АЛРОСА</td>
+                            <td><span class="status active">Активный</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
