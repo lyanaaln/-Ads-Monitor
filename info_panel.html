@@ -3,10 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Информационная панель</title>
+    <title>Технопарк Ads Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <h1>Информационная панель</h1>
-    <p>Это пустая страница для информационной панели.</p>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Менеджер рекламы</h2>
+            <ul>
+                <li class="active"><i class="fa fa-home"></i><a href="info_panel.html" target="_blank">Информационная панель</a></li>
+                <li><i class="fa fa-file-text"></i><a href="user_orders.html" target="_blank">История заказов</a></li>
+                <li><i class="fas fa-tv"></i><a href="displays.html" target="_blank">Дисплеи</a></li>
+                <li><i class="fas fa-calendar-alt"></i><a href="schedule.html" target="_blank">Расписание</a></li>
+                <li><i class="fa fa-plus-square"></i><a href="add_order.html" target="_blank">Добавить запись</a></li>
+                <li><i class="fas fa-user-circle"></i><a href="account.html" target="_blank">Учетная запись</a></li>
+                <li><i class="fas fa-sign-out-alt"></i><a href="logout.html" target="_blank">Выход</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h1>Информационная панель</h1>
+            <p>Добро пожаловать в вашу систему управления рекламой</p>
+            <div class="info-panel">
+                <div class="info-item">
+                    <p>Общее время показа рекламы</p>
+                    <h2>124 часа</h2>
+                    <small>В этом месяце</small>
+                </div>
+                <div class="info-item">
+                    <p>Активные кампании</p>
+                    <h2>12</h2>
+                    <small>В настоящее время работает</small>
+                </div>
+                <div class="info-item">
+                    <p>Доход</p>
+                    <h2>₽45,231</h2>
+                    <small>Последние 30 дней</small>
+                </div>
+                <div class="info-item">
+                    <p>Рекламодатели</p>
+                    <h2>48</h2>
+                    <small>Активные клиенты</small>
+                </div>
+            </div>
+            <h2>Недавняя активность</h2>
+            <div class="activity-list">
+                <div class="activity-item">
+                    <p>Кампания 1 стартовала</p>
+                    <small>2 часа назад</small>
+                    <button>Активировать</button>
+                </div>
+                <div class="activity-item">
+                    <p>Кампания 2 началась</p>
+                    <small>2 часа назад</small>
+                    <button>Активировать</button>
+                </div>
+                <div class="activity-item">
+                    <p>Кампания 3 началась</p>
+                    <small>2 часа назад</small>
+                    <button>Активировать</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
